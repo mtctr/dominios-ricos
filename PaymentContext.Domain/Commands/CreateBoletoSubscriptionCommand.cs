@@ -11,7 +11,7 @@ namespace PaymenContext.Domain.Commands
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Document { get; set; }
-        public string Address { get; set; }
+        public string Email { get; set; }
         public string BarCode { get; set; }
         public string BoletoNumber { get; set; }
         public string PaymentNumber { get; set; }
@@ -19,6 +19,7 @@ namespace PaymenContext.Domain.Commands
         public DateTime ExpireDate { get; set; }
         public decimal Total { get; set; }
         public decimal TotalPaid { get; set; }
+        public string Payer { get; set; }
         public string PayerDocument { get; set; }
         public EDocumentType PayerDocumentType { get; set; }
         public string PayerEmail { get; set; }
